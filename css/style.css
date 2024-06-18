@@ -20,7 +20,7 @@ body {
   font-weight: 400;
 }
 header {
-  height: 140px;
+  height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@ header {
   padding: 0 1.2rem;
 }
 header .logo img {
-  width: 150px;
+  width: 80px;
 }
 header nav ul {
   display: flex;
@@ -466,7 +466,11 @@ footer .social-media img {
 }
 @media screen and (min-width: 992px) {
   header {
+    height: 150px;
     padding: 0 4rem;
+  }
+  header .logo img {
+    width: 150px;
   }
   section.container {
     background-color: var(--Dark-Blue-intro);
